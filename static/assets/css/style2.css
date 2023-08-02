@@ -1,0 +1,40 @@
+#nb{
+    background-color:#f4476b;
+    color: #fff;
+}
+#nb-btn{
+    background-color: #fff;
+    color: #f4476b;
+}
+#nb-btn:hover{
+    font-weight: 700;   
+}
+#ft-a:hover{
+    color: #f4476b;
+    font-weight: 700;
+}
+.footer-basic a:hover{
+    color: #f4476b;    
+}
+.mb-3 .form-control:hover{
+    border-bottom: 1.5px solid #f4476b;
+    transition: border-bottom .9s;
+}
+
+.h1-404{
+	margin-top: 100px;
+	font-family: sans-serif, 'Helvetica', 'Arial';
+	font-weight: 700;
+	font-size : 60px;
+}
+
+.p-404{
+	font-family: sans-serif, 'Helvetica', 'Arial';
+	font-size : 20px;
+}
+
+
+#result .active{
+    opacity: 1;
+    transition: opacity 1s;
+}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <section class="register-photo">
+        <div class="form-container">
+            <div class="image-holder"></div>
+            <form method="POST" id="postForm">
+                <h2 class="text-center"><strong>SEGOND DEGRE</strong></h2>
+                <div class="mb-3"><input class="form-control" type="number" name="a" id="a" placeholder="valeur de a"></div>
+                <div class="mb-3"><input class="form-control" type="number" name="b" id="b" placeholder="valeur de b"></div>
+                <div class="mb-3"><input class="form-control" type="number" name="c" id="c" placeholder="valeur de c"></div>
+                <div class="mb-3"><input id="res" type="submit" class="btn btn-primary d-block w-100" value="Résoudre"></div>
+                <center><div class="mb-3"><label id="result"></label></div></center>
+            </form>
+
+        </div>
+
+    </section>
+
+    {% include 'footer.html' %}
+
+{% endblock %}
